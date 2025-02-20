@@ -1,14 +1,7 @@
-const notas = document.getElementById("blocoNotas");
-const botaoLimpar = document.getElementById("limpar");
+function redirecionarInstagram() {
+    window.location.href = "https://www.instagram.com/kingjames?igsh=YXIwdjQxOG45ZjR2";
+}
 
-notas.value = localStorage.getItem("blocoNotas");
-
-notas.addEventListener("input",()=>{
-    localStorage.setItem("blocoNotas", notas.value);
-});
-
-botaoLimpar.addEventListener("click", ()=>{
-    localStorage.removeItem("blocoNotas");
-    notas.value = "";
-});
-
+function redirecionarWikipedia() {
+    window.location.href = "https://pt.m.wikipedia.org/wiki/LeBron_James";
+}
